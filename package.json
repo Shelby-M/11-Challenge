@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shelby-M/11-Challenge.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Shelby-M/11-Challenge/issues"
+  },
+  "homepage": "https://github.com/Shelby-M/11-Challenge#readme"
 }

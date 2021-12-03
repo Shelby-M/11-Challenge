@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 const path = require("path");
 const fs = require("fs");
 const uniqid = require("uniqid");
@@ -56,5 +56,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}`);
+  console.log("server now on PORT: " + PORT);
 });
